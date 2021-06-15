@@ -17,7 +17,7 @@ int main() {
 		// find the minimum between 'y' and 2 times 'x' (or the sum of adding 'x' to itself)
 		y = min(y, 2 * x);
 		// imagine a checkerboard pattern, and we will fill the black squares with the maximum 
-		// value, white the white squares will contain the minimum value that must be added
+		// value, while the white squares will contain the minimum value that must be added
 		// ('n' * 'm' + 1) / 2 * 'x') = pertains to the black squares (larger value)
 		// ('n' * 'm') / 2 * ('y' - 'x') = pertains to the white squares (smaller value)
 		cout << (n * m + 1) / 2 * x + (n * m) / 2 * (y - x) << '\n';
